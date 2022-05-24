@@ -1,0 +1,146 @@
+header{
+    display: flex;
+    font-size: 15px;
+    max-width: 100%;  
+    justify-content: space-around;
+    margin-right: 45px;
+    font-family: monospace;
+}
+ .pelican{
+     color:gainsboro;
+     font-size: 19px;
+     margin-left: 45px;
+    }
+
+.enlaces{
+margin-right: 12px;
+font-size: 10px;
+}
+.topnav{
+  margin-right: 13px;
+  margin-top: 22px;
+}
+
+
+.topnav a {
+    
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    }
+
+
+  .topnav a:hover {
+    background-color: rgb(117, 189, 238);;
+    color: black;
+    transition: background-color 0.3s ease-out;
+  
+  }
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+ .contenedortrend{
+  margin-top: 70px;
+  display:flex;
+  justify-content: space-around;
+  margin-left: 45px;
+  margin-right: 45px;
+  font-family: monospace;
+}
+
+  .trend{
+    max-width: 492px;
+    max-height: 504px;
+    margin-top: 15px;
+    margin-left:13px;
+  }
+   .trending{
+     color: rgb(0, 119, 255);
+    font-size: 20px;
+   }
+  
+   .image{
+     max-width: 900px;
+     max-height: 900px;
+     margin-right:13px;
+    }
+  
+   img{
+      max-width: 500px;
+      max-height: 500px;
+    }
+    .btn {
+      background-color: rgb(0, 119, 255);
+      
+      color: #ffffff;
+      font-weight: 700;
+      padding: 1rem;
+      transition: background-color 0.3s ease-out;
+      text-align: center;
+      border-radius:25px;
+      margin-left:0;
+      margin-bottom: 5px;
+    }
+    .btn:hover {
+      background-color: rgb(0, 87, 185);
+      cursor: pointer;
+    }
+    .mail{
+      border-radius: 25px;
+      margin-bottom: 13px;
+      width: 220px;
+      height: 51px;
+    } 
+    footer{
+     display:flex;
+     flex-direction: column;
+     align-items: center;
+      height: 250px;
+     width: 1331px;
+      background-color: rgba(239, 253, 255, 0.404);
+    }
+.foottext{
+  margin-top: 60px;
+  margin-bottom: .1px;
+  font-family: monospace;
+  font-size: 35px;
+}
+.foottext2{
+  margin-top: .1px;
+  margin-bottom: 5px;
+  font-family: monospace;
+  font-size: 35px;
+}
+.faattext{
+margin-bottom: .1px;
+margin-top: 5px;
+font-family: monospace;
+color:gainsboro;
+}
+.faattext2{
+margin-top: .1px;
+font-family: monospace;
+color:gainsboro;
+}
+.cd{
+  margin-top:.1px;
+}
+.sm{
+  margin-bottom: .1px;
+}
+.best{
+margin-bottom: .1px;
+color:gainsboro;
+font-size: 16px;
+}
+
+.render{
+margin-top: .1px;
+color:gainsboro;
+font-size: 16px;
+}
+.day{
+  color:gainsboro;
+  margin-top: 10px;
+}
